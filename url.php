@@ -23,7 +23,6 @@ if(empty($_GET['id'])){
 	echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8">';
 	echo '<meta name="author" content="Daniel Winzen">';
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
-	echo '<meta name="robots" content="noindex, nofollow">';
 	echo '</head><body>';
 	echo '<h1>URL-Shortener/Redirector</h1>';
 	echo '<p>Shorten a URL or strip referrers by redirecting via '.CANONICAL_URL.'?r=LINK</p>';
